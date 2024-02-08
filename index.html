@@ -51,6 +51,14 @@
             <li>Terms of Services</li>
             <li>Contact Us</li>
         </ul>
-    </footer>
+    
+        <h1 class="f-font">&copy; <span id="currentYear"></span> All Rights Reserved.</h1>
+      </footer>
+      <script>
+        let currentDate = new Date();
+        let currentYear = currentDate.getFullYear();
+        let copy = document.querySelector('.f-font');
+        copy.innerHTML = '&copy; ' + currentYear + ' All Rights Reserved.';
+      </script>
 </body>
 </html>
