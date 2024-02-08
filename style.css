@@ -15,7 +15,6 @@ body {
 
 .head {
     display: flex;
-    
     justify-content: space-between;
     background-color: #0a1436;
     border: 1px solid #fff;
@@ -201,7 +200,42 @@ body {
     transition: transform 0.1s ease; /* Example: Add a quick transition for the click animation */
   }
   
-
 .foot {
+    /* display: flex;
+    justify-content: space-between; */
+    background-color: transparent;
+    font-family: 'Plus Jakarta Sans';
+    color: #fff;
+    margin: auto;
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 2rem;
+}
+
+.foot ul {
+    display : flex;
+    gap: 90px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.foot ul li {
+    list-style: none;
+}
+
+.foot ul li:hover {
+    background: linear-gradient(45deg, #22d3ee, #18a2d9, #3b82f6, #4f46e5, #c026d3, #be123c  ); /* Gradient background */
+    -webkit-background-clip: text; /* Clip text to the background */
+    background-clip: text;
+    -webkit-text-fill-color: transparent; /* Hide original text color */
+    color: transparent; /* Hide original text color */
+}
+
+.foot h1 {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans';
+    justify-content: center;
+    margin:   25px 0px;
+    font-size: larger;
 
 }
