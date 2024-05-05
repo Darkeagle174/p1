@@ -4,13 +4,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body {
-    background : linear-gradient( #172554, #1e1b4b, #020617) no-repeat fixed ;
+    /* background : linear-gradient(45deg, #172554, #1e1b4b, #020617) no-repeat fixed ; */
+    background : linear-gradient(45deg,#040018 40%, #150E56 , #1597BB ) no-repeat fixed ;
 }
 
 .head {
@@ -100,6 +102,16 @@ body {
     background-color: transparent;
     border: 2px solid #be123c;
     width: 33%;
+   
+}
+
+.problems ul li a {
+  list-style: none;
+  padding: 10px;
+  /* margin: 10px; */
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
 }
 
 .problems ul li:hover {
@@ -205,7 +217,7 @@ body {
     justify-content: space-between; */
     background-color: transparent;
     font-family: 'Plus Jakarta Sans';
-    color: black;
+    color: white;
     margin: auto;
     /* display: flex;
     justify-content: center; */
@@ -238,4 +250,30 @@ body {
     margin:   25px 0px;
     font-size: larger;
 
+}
+
+@media only screen and (max-width: 768px) {
+  .head div ul {
+      flex-direction: column;
+      gap: 10px;
+  }
+  
+  .problems ul li {
+      width: auto;
+  }
+  
+  .button-85 {
+      width: 200px;
+      font-size: 20px;
+  }
+  
+  .foot ul {
+      flex-direction: column;
+      gap: 10px;
+  }
+  div {
+    /* Add styles here to adjust div elements for smaller screens */
+    padding: 10px;
+    margin: 5px;
+}
 }
