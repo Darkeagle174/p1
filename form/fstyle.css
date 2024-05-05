@@ -112,11 +112,11 @@ body {
     margin-bottom: 20px;
 }
 
-.submit {
+/* .submit {
     text-align: justify;
     margin-left: 15px;
     margin-bottom: 20px;
-}
+} */
 
 .button-85 {
     padding: 0.6em 2em;
@@ -131,12 +131,13 @@ body {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: 250px;
-    height :75px;
-    font-size: 28px;
+    width: 100px;
+    height :30px;
+    font-size: 12px;
     font-family: 'Plus Jakarta Sans';
     text-align: center;
-    
+    margin-left: 15px;
+    margin-bottom: 20px;
   }
   
   .form {
