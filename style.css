@@ -53,6 +53,7 @@ body {
     background-clip: text;
     -webkit-text-fill-color: transparent; /* Hide original text color */
     color: transparent; /* Hide original text color */
+    cursor: pointer;
 }
 
 .heading {
@@ -112,6 +113,7 @@ body {
   background-color: transparent;
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 
 .problems ul li:hover {
@@ -145,6 +147,10 @@ body {
   
 }
 
+.form {
+  text-decoration: none;
+  color: white;
+}
 .button-85:before {
   content: "";
   background: linear-gradient(
@@ -241,6 +247,7 @@ body {
     background-clip: text;
     -webkit-text-fill-color: transparent; /* Hide original text color */
     color: transparent; /* Hide original text color */
+    cursor: pointer;
 }
 
 .foot h1 {
