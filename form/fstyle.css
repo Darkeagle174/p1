@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap");
+
+body {
+    background : linear-gradient(45deg,#040018 40%, #150E56 , #1597BB ) no-repeat fixed ;
+}
+
+.main {
+    height: 100vh;
+    width: 42vw;
+    background-color: aliceblue;
+    /* align-items: center; */
+    text-align: left;
+    font-family: 'Plus Jakarta Sans';
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    /* opacity: 90%; */
+    
+}
+
+.name {
+    text-align: justify;
+    /* align-items: ; */
+    margin-left: 15px;
+    /* margin-top: px; */
+    padding-top: 150px;
+    margin-bottom: 20px;
+}
+
+.Name {
+    padding-top: 15px;
+}
+
+.Name input {
+    width: 500px;
+    height: 20px;
+}
+.gender {
+    text-align: justify;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.Gender {
+    padding-top: 15px;
+}
+
+.Email {
+    text-align: justify;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.Email p input {
+    width: 500px;
+    height: 20px;
+}
+
+.tel {
+    text-align: justify;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.tel p input {
+    width: 500px;
+    height: 20px;
+}
+
+.date {
+    text-align: justify;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.Date {
+    padding-top: 15px;
+}
+
+.Date input {
+    width: 500px;
+    height: 20px;
+}
+
+.Time {
+    text-align: justify;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.time {
+    text-align: justify;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.Time input {
+    width: 500px;
+    height: 20px;
+}

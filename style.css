@@ -71,7 +71,7 @@ body {
 
 .intro {
     margin: 5%;
-    text-align: justify;
+    text-align: left;
     justify-content: center;
     color: white;
     font-family: 'Plus Jakarta Sans';
