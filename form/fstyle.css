@@ -4,6 +4,12 @@ body {
     background : linear-gradient(45deg,#040018 40%, #150E56 , #1597BB ) no-repeat fixed ;
 }
 
+.heading {
+    text-align: center;
+    color: black;
+    font-family: 'Plus Jakarta Sans';
+    margin-top: 500px;
+}
 .main {
     height: 100vh;
     width: 42vw;
@@ -90,11 +96,11 @@ body {
 
 .time {
     text-align: justify;
-    margin-left: 15px;
     margin-bottom: 20px;
+    padding-top: 15px;
 }
 
-.Time input {
+.Time select {
     width: 500px;
     height: 20px;
 }
