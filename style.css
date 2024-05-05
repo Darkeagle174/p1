@@ -43,8 +43,12 @@ body {
 
 .head div ul li {
     list-style: none;
+}
 
-
+.head div ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
 }
 
 .head div ul li:hover {
@@ -239,6 +243,12 @@ body {
 
 .foot ul li {
     list-style: none;
+}
+
+.foot ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
 }
 
 .foot ul li:hover {
