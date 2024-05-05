@@ -18,7 +18,7 @@ body {
 .head {
     display: flex;
     justify-content: space-between;
-    background-color: #0a1436;
+    background : #040018;
     border: 1px solid #fff;
     font-family: 'Plus Jakarta Sans';
     color: #fff;
