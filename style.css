@@ -5,44 +5,45 @@
 
 
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
 body {
-    /* background : linear-gradient(45deg, #172554, #1e1b4b, #020617) no-repeat fixed ; */
-    background : linear-gradient(45deg,#040018 40%, #150E56 , #1597BB ) no-repeat fixed ;
+  /* background : linear-gradient(45deg, #172554, #1e1b4b, #020617) no-repeat fixed ; */
+  background: linear-gradient(45deg, #040018 40%, #150E56, #1597BB) no-repeat fixed;
 }
 
 .head {
-    display: flex;
-    justify-content: space-between;
-    background : #040018;
-    border: 1px solid #fff;
-    font-family: 'Plus Jakarta Sans';
-    color: #fff;
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    border-radius: 50px;
-    margin-top: 2rem;
-    
+  display: flex;
+  justify-content: space-between;
+  background: #040018;
+  border: 1px solid #fff;
+  font-family: 'Plus Jakarta Sans';
+  color: #fff;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  margin-top: 2rem;
+
 }
 
 .head div ul {
 
-    display : flex;
-    gap: 90px;
-    padding: 15px;
-    /* margin: 0; */
-    /* justify-content: space-around; */
+  display: flex;
+  gap: 90px;
+  padding: 15px;
+  /* margin: 0; */
+  /* justify-content: space-around; */
 
 }
 
 .head div ul li {
-    list-style: none;
+  list-style: none;
 }
 
 .head div ul li a {
@@ -52,62 +53,69 @@ body {
 }
 
 .head div ul li:hover {
-    background: linear-gradient(45deg, #22d3ee, #18a2d9, #3b82f6, #4f46e5, #c026d3, #be123c  ); /* Gradient background */
-    -webkit-background-clip: text; /* Clip text to the background */
-    background-clip: text;
-    -webkit-text-fill-color: transparent; /* Hide original text color */
-    color: transparent; /* Hide original text color */
-    cursor: pointer;
+  background: linear-gradient(45deg, #22d3ee, #18a2d9, #3b82f6, #4f46e5, #c026d3, #be123c);
+  /* Gradient background */
+  -webkit-background-clip: text;
+  /* Clip text to the background */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* Hide original text color */
+  color: transparent;
+  /* Hide original text color */
+  cursor: pointer;
 }
 
 .heading {
-    font-size: 100px;
-    margin-top: 5%;
-    text-align: center;
-    background: linear-gradient(45deg, #22d3ee, #18a2d9, #3b82f6, #4f46e5, #c026d3, #be123c , #500724); /* Gradient background */
-    -webkit-background-clip: text; /* Clip text to the background */
-    background-clip: text;
-    -webkit-text-fill-color: transparent; /* Hide original text color */
-    color: transparent;
-    font-family: 'Poppins', sans-serif;
-    text-shadow: 5px 4px 5px rgba(0, 0, 0, 0.5);
+  font-size: 100px;
+  margin-top: 5%;
+  text-align: center;
+  background: linear-gradient(45deg, #22d3ee, #18a2d9, #3b82f6, #4f46e5, #c026d3, #be123c, #500724);
+  /* Gradient background */
+  -webkit-background-clip: text;
+  /* Clip text to the background */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* Hide original text color */
+  color: transparent;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 5px 4px 5px rgba(0, 0, 0, 0.5);
 }
 
 .intro {
-    margin: 5%;
-    text-align: left;
-    justify-content: center;
-    color: white;
-    font-family: 'Plus Jakarta Sans';
-    font-size: 37px;
+  margin: 5%;
+  text-align: left;
+  justify-content: center;
+  color: white;
+  font-family: 'Plus Jakarta Sans';
+  font-size: 37px;
 }
 
 .prh {
-    margin: 5%;
-    text-align: justify;
-    justify-content: center;
-    color: white;
-    font-family: 'Plus Jakarta Sans';
-    font-size: 37px;
+  margin: 5%;
+  text-align: justify;
+  justify-content: center;
+  color: white;
+  font-family: 'Plus Jakarta Sans';
+  font-size: 37px;
 }
 
 .problems {
-    color: white;
-    font-size: 35px;
-    font-family: 'Plus Jakarta Sans';
-    margin: 5%;
-    text-align: justify;
-    
+  color: white;
+  font-size: 35px;
+  font-family: 'Plus Jakarta Sans';
+  margin: 5%;
+  text-align: justify;
+
 }
 
 .problems ul li {
-    list-style: none;
-    padding: 10px;
-    /* margin: 10px; */
-    background-color: transparent;
-    border: 2px solid #be123c;
-    width: 33%;
-   
+  list-style: none;
+  padding: 10px;
+  /* margin: 10px; */
+  background-color: transparent;
+  border: 2px solid #be123c;
+  width: 33%;
+
 }
 
 .problems ul li a {
@@ -121,11 +129,15 @@ body {
 }
 
 .problems ul li:hover {
-    background: linear-gradient(45deg, #22d3ee, #18a2d9, #3b82f6, #4f46e5, #c026d3, #be123c  ); /* Gradient background */
-    -webkit-background-clip: text; /* Clip text to the background */
-    background-clip: text;
-    -webkit-text-fill-color: transparent; /* Hide original text color */
-    color: transparent; /* Hide original text color */
+  background: linear-gradient(45deg, #22d3ee, #18a2d9, #3b82f6, #4f46e5, #c026d3, #be123c);
+  /* Gradient background */
+  -webkit-background-clip: text;
+  /* Clip text to the background */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* Hide original text color */
+  color: transparent;
+  /* Hide original text color */
 }
 
 
@@ -144,31 +156,30 @@ body {
   -webkit-user-select: none;
   touch-action: manipulation;
   width: 250px;
-  height :75px;
+  height: 75px;
   font-size: 28px;
   font-family: 'Plus Jakarta Sans';
   text-align: center;
-  
+
 }
 
 .form {
   text-decoration: none;
   color: white;
 }
+
 .button-85:before {
   content: "";
-  background: linear-gradient(
-    45deg,
-    #ff0000,
-    #ff7300,
-    #fffb00,
-    #48ff00,
-    #00ffd5,
-    #002bff,
-    #7a00ff,
-    #ff00c8,
-    #ff0000
-  );
+  background: linear-gradient(45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000);
   position: absolute;
   top: -2px;
   left: -2px;
@@ -187,9 +198,11 @@ body {
   0% {
     background-position: 0 0;
   }
+
   50% {
     background-position: 400% 0;
   }
+
   100% {
     background-position: 0 0;
   }
@@ -208,41 +221,46 @@ body {
 }
 
 .button-85:hover {
-    /* Adjust the styles for hover effect */
-    transform: scale(1.1); /* Example: Scale the button slightly on hover */
-    transition: transform 0.3s ease; /* Example: Add smooth transition */
-  }
-  
-  .button-85:hover::after {
-    background: #000000; /* Example: Change the background color on hover */
-  }
-  
-  .button-85:active {
-    transform: scale(0.9); /* Example: Scale the button slightly on click */
-    transition: transform 0.1s ease; /* Example: Add a quick transition for the click animation */
-  }
-  
+  /* Adjust the styles for hover effect */
+  transform: scale(1.1);
+  /* Example: Scale the button slightly on hover */
+  transition: transform 0.3s ease;
+  /* Example: Add smooth transition */
+}
+
+.button-85:hover::after {
+  background: #000000;
+  /* Example: Change the background color on hover */
+}
+
+.button-85:active {
+  transform: scale(0.9);
+  /* Example: Scale the button slightly on click */
+  transition: transform 0.1s ease;
+  /* Example: Add a quick transition for the click animation */
+}
+
 .foot {
-    /* display: flex;
+  /* display: flex;
     justify-content: space-between; */
-    background-color: transparent;
-    font-family: 'Plus Jakarta Sans';
-    color: white;
-    margin: auto;
-    /* display: flex;
+  background-color: transparent;
+  font-family: 'Plus Jakarta Sans';
+  color: white;
+  margin: auto;
+  /* display: flex;
     justify-content: center; */
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .foot ul {
-    display : flex;
-    gap: 90px;
-    padding: 15px;
-    justify-content: center;
+  display: flex;
+  gap: 90px;
+  padding: 15px;
+  justify-content: center;
 }
 
 .foot ul li {
-    list-style: none;
+  list-style: none;
 }
 
 .foot ul li a {
@@ -252,19 +270,64 @@ body {
 }
 
 .foot ul li:hover {
-    background: linear-gradient(45deg, #22d3ee, #18a2d9, #3b82f6, #4f46e5, #c026d3, #be123c  ); /* Gradient background */
-    -webkit-background-clip: text; /* Clip text to the background */
-    background-clip: text;
-    -webkit-text-fill-color: transparent; /* Hide original text color */
-    color: transparent; /* Hide original text color */
-    cursor: pointer;
+  background: linear-gradient(45deg, #22d3ee, #18a2d9, #3b82f6, #4f46e5, #c026d3, #be123c);
+  /* Gradient background */
+  -webkit-background-clip: text;
+  /* Clip text to the background */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* Hide original text color */
+  color: transparent;
+  /* Hide original text color */
+  cursor: pointer;
 }
 
 .foot h1 {
-    text-align: center;
-    font-family: 'Plus Jakarta Sans';
-    justify-content: center;
-    margin:   25px 0px;
-    font-size: larger;
+  text-align: center;
+  font-family: 'Plus Jakarta Sans';
+  justify-content: center;
+  margin: 25px 0px;
+  font-size: larger;
 
+}
+
+@media only screen and (max-width: 768px) {
+  .heading {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .intro {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .prh {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .problems {
+    font-size: 7px;
+  }
+  
+  .problems ul li {
+    width: 33%;
+  }
+
+  .button-85 {
+    height: 37px;
+    width: 125px;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .foot ul {
+    font-size: 10px;
+  }
+
+  .foot h1 {
+    font-size: smaller;
+  }
 }
