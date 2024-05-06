@@ -268,29 +268,3 @@ body {
     font-size: larger;
 
 }
-
-@media only screen and (max-width: 768px) {
-  .head div ul {
-      flex-direction: column;
-      gap: 10px;
-  }
-  
-  .problems ul li {
-      width: auto;
-  }
-  
-  .button-85 {
-      width: 200px;
-      font-size: 20px;
-  }
-  
-  .foot ul {
-      flex-direction: column;
-      gap: 10px;
-  }
-  div {
-    /* Add styles here to adjust div elements for smaller screens */
-    padding: 10px;
-    margin: 5px;
-}
-}
