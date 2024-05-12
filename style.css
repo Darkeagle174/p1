@@ -374,3 +374,7 @@ body {
   background-color: black !important; 
   color: white; 
 }
+
+.offcanvas-header button.btn-close {
+  filter: invert(1); 
+}
