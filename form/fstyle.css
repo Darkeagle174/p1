@@ -2,6 +2,8 @@
 
 body {
   background: linear-gradient(45deg, #040018 40%, #150E56, #1597BB) no-repeat fixed;
+  height: 100%;
+  min-height: 100vh;
 }
 
 .heading {
