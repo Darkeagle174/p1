@@ -89,7 +89,7 @@ body {
 
 .intro {
   margin: 5%;
-  text-align: left;
+  text-align: center;
   justify-content: center;
   color: white;
   font-family: 'Plus Jakarta Sans';
@@ -98,7 +98,7 @@ body {
 
 .prh {
   margin: 5%;
-  text-align: justify;
+  text-align: center;
   justify-content: center;
   color: white;
   font-family: 'Plus Jakarta Sans';
@@ -112,6 +112,7 @@ body {
   margin: 5%;
   text-align: justify;
   display: flex;
+  justify-content: center;
 }
 
 .problems ul li {
